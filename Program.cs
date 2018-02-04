@@ -16,6 +16,7 @@ namespace Lab9
             //{
             //    Console.WriteLine(  "contient special chars");
             //}
+      
             Circle circle = null ;
             Console.WriteLine("welcome to Circle Tester");
             bool run = true;
@@ -30,7 +31,7 @@ namespace Lab9
                     Console.WriteLine("Circumference =" + circle.CalculateFormatedCircumference());
 
                     Console.WriteLine("Area =" + circle.CalculateFormatedArea());
-
+                    Console.WriteLine(circle.ToString());
                     Console.WriteLine();
                     Console.Write("Continue (y/n): ");
                     run = Console.ReadKey().Key == ConsoleKey.Y;
@@ -41,7 +42,7 @@ namespace Lab9
             Console.WriteLine();
 
             Console.WriteLine("Good Bye");
-            Console.WriteLine("You created  = " + circle.getNumberCircle() + " Circles");
+            Console.WriteLine("You created  = " + circle.getNumberCircle() + " Circles" ) ;
 
             //Circle circle = new Circle(10);
             //Console.WriteLine( circle.FormatNumber( circle.GetCircumference()));

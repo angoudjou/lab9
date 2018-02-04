@@ -45,6 +45,11 @@ namespace Lab9
         private double getRaduis()
         {
             return raduis;
+            
+        }
+        public override string  ToString()
+        {
+            return "Im a cricle of raduis" + raduis; ;
         }
     }
 }
